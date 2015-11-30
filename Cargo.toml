@@ -1,0 +1,16 @@
+[package]
+name = "rust-model-diesel"
+version = "0.0.1"
+authors = [ "douglas.linder@gmail.com" ]
+build = "build.rs"
+
+[lib]
+name = "rust_model_diesel"
+path = "src/lib.rs"
+
+[dependencies]
+diesel = "0.1"
+
+[build-dependencies]
+diesel_codegen = "^0.1.0"
+syntex = "^0.22.0"
